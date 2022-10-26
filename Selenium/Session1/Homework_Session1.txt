@@ -1,0 +1,40 @@
+2. Xpath of "Watch it in action" button
+//a[text()='Watch it in action']
+
+3. Find list elements by xpath for "Home/Documentation/Download/Contact"
+List<WebElement> navigations = driver.findElements(By.xpath("//ul[@class="nav nav-justified"]/*");
+
+4. Find an element by using the regex below:
+- /preceding::*
+//a[text()='Watch it in action']/preceding::*
+
+- /preceding-sibling::*
+//ul/child::*/preceding-sibling::*
+
+- /following::*
+//li[@class='active']/following::*
+
+- /following-sibling::*
+//li[@class='active']/following-sibling::*
+
+- /..
+//li[@class='active']/..
+
+- Using index [int]
+//ul/li[1]
+
+- text()
+//a[text()='Watch it in action']
+
+- @attribue
+//li[@class='active']
+
+- contains
+//a[contains(text(), 'Watch it')]
+
+- "and" and "or"
+//a[contains(text(), 'Watch it') and @class='btn btn-lg btn-success']
+//ul | //li
+
+- Regex contains(.,'abc')
+//li(lam nua di)
