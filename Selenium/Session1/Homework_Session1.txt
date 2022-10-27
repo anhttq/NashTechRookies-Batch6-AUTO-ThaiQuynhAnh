@@ -37,4 +37,4 @@ List<WebElement> navigations = driver.findElements(By.xpath("//ul[@class="nav na
 //ul | //li
 
 - Regex contains(.,'abc')
-//li(lam nua di)
+//a[contains(., 'Watch it')]
