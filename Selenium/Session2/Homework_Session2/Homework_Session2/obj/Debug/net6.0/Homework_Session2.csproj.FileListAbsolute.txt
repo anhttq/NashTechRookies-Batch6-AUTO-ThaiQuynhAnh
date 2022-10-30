@@ -1,3 +1,8 @@
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.csproj.AssemblyReference.cache
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.AssemblyInfoInputs.cache
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.AssemblyInfo.cs
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.csproj.CoreCompileInputs.cache
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\testhost.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\testhost.exe
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
@@ -7,10 +12,12 @@ D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\nunit.engine.api.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\nunit.engine.core.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Homework_Session2.exe
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Homework_Session2.deps.json
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Homework_Session2.runtimeconfig.json
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Homework_Session2.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Homework_Session2.pdb
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\SeleniumExtras.WaitHelpers.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -88,11 +95,6 @@ D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.csproj.AssemblyReference.cache
-D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.GeneratedMSBuildEditorConfig.editorconfig
-D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.AssemblyInfoInputs.cache
-D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.AssemblyInfo.cs
-D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.csproj.CoreCompileInputs.cache
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.csproj.CopyComplete
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\Homework_Session2.dll
 D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\Selenium\Session2\Homework_Session2\Homework_Session2\obj\Debug\net6.0\refint\Homework_Session2.dll

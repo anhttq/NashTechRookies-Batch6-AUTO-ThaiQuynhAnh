@@ -1,0 +1,14 @@
+Implicit wait and Explicit wait
+
+1. Implicit wait
+Implicit waits are used to provide a default waiting time between each consecutive test step/command across the entire 
+test script. Thus, the subsequent test step would only execute when the fixed waiting time has elapsed after executing
+the previous test step/command.
+
+- The implicit wait is a single line of a code and can be declared in the setup method of the test script
+- When compared to Explicit wait, the Implicit wait is transparent and uncomplicated. The syntax and approach are 
+simpler than explicit wait.
+
+2. Explicit wait
+Explicit waits are used to halt the execution until the time a particular condition is met or the maximum time has elapsed. 
+Unlike Implicit waits, Explicit waits are applied for a particular instance only.
