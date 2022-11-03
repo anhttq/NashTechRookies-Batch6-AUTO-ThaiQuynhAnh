@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session3\\Homework_Session3\\Homework_Session3.csproj": {}
+    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session3\\Homework_Session3\\Homework_Session3.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session3\\Homework_Session3\\Homework_Session3.csproj": {
+    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session3\\Homework_Session3\\Homework_Session3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session3\\Homework_Session3\\Homework_Session3.csproj",
+        "projectUniqueName": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session3\\Homework_Session3\\Homework_Session3.csproj",
         "projectName": "Homework_Session3",
-        "projectPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session3\\Homework_Session3\\Homework_Session3.csproj",
+        "projectPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session3\\Homework_Session3\\Homework_Session3.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session3\\Homework_Session3\\obj\\",
+        "outputPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session3\\Homework_Session3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
