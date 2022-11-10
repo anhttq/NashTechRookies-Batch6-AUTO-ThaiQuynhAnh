@@ -43,6 +43,18 @@
 					"listen": "test",
 					"script": {
 						"exec": [
+							"pm.test(\"Id_05. GET successful: Status code is 200 and return a specific todo\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
 							""
 						],
 						"type": "text/javascript"
@@ -53,12 +65,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/todos",
+					"raw": "{{url}}/todos/1691",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
-						"todos"
+						"todos",
+						"1691"
 					]
 				}
 			},
@@ -66,14 +79,50 @@
 		},
 		{
 			"name": "Request Id_06",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_06. GET failed: Status code is 404 which means that the todo does not exist\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todos/1999",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos",
+						"1999"
+					]
+				}
 			},
 			"response": []
 		},
 		{
 			"name": "Request Id_07",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_07. Content-Type is present in response header\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "HEAD",
 				"header": [],
@@ -91,12 +140,25 @@
 		},
 		{
 			"name": "Request Id_08",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_08. Successfully create a todo with title is \\\"doing API Testing Homework\\\"\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"doing API Testing Homework\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n            \"title\": \"doing API Testing Homework\",\r\n            \"doneStatus\": false,\r\n            \"description\": \"must done before 7pm 11Oct\"\r\n        }",
+					"raw": "{\r\n            \"title\": \"doing API Testing Homework\",\r\n            \"doneStatus\": true,\r\n            \"description\": \"must done before 7pm 11Oct\"\r\n        }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -117,6 +179,19 @@
 		},
 		{
 			"name": "Request Id_09",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_09. GET successfull: get only todos which are 'done'\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(true);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -140,6 +215,19 @@
 		},
 		{
 			"name": "Request Id_10",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_10. POST failed because of fail validation on the doneStatus\", function () {\r",
+							"    pm.response.to.have.status(201);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -166,6 +254,19 @@
 		},
 		{
 			"name": "Request Id_11",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_11. POST successfully update a todo with title is \\\"update title\\\"\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"doing API Testing Homework\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -179,13 +280,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/todos/1590",
+					"raw": "{{url}}/todos/1724",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"todos",
-						"1590"
+						"1724"
 					]
 				}
 			},
@@ -193,9 +294,32 @@
 		},
 		{
 			"name": "Request Id_12",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_12. DELETE successfully: delete a todo with id is 1734\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todos/1734",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos",
+						"1734"
+					]
+				}
 			},
 			"response": []
 		},
@@ -208,9 +332,7 @@
 						"exec": [
 							"pm.test(\"01. API allow OPTIONS, GET, HEAD, POST method\", function () {\r",
 							"    var responseHeaders = pm.response.headers.all();\r",
-							"    var allowMethodsArr = responseHeaders[2];\r",
 							"    var allowMethods = Object.values(responseHeaders[2]);\r",
-							"    console.log(allowMethods[1]);\r",
 							"    pm.expect(allowMethods[1]).to.include(\"OPTION\", \"GET\", \"HEAD\", \"POST\");\r",
 							"});\r",
 							"\r",
