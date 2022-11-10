@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "c3f307c2-7a8b-48a9-bb36-a7495c07dfd2",
+		"name": "RookiesBatch6_AUTO_APITesting_QuynhAnh",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24323810"
+	},
+	"item": [
+		{
+			"name": "Request Id_04",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Id_04. GET Failed: Status code is 404\", function () {\r",
+							"    pm.response.to.have.status(404);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todo",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_05",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_06",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_07",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_08",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"title\": \"doing API Testing Homework\",\r\n            \"doneStatus\": false,\r\n            \"description\": \"must done before 7pm 11Oct\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/todos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_09",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todos?doneStatus=true",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos"
+					],
+					"query": [
+						{
+							"key": "doneStatus",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_10",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n            \"title\": \"doing API Testing Homework\",\r\n            \"doneStatus\": \"true\",\r\n            \"description\": \"must done before 7pm 11Oct\"\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/todos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_11",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"updated title\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/todos/1590",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos",
+						"1590"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_12",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Request Id_13",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"01. API allow OPTIONS, GET, HEAD, POST method\", function () {\r",
+							"    var responseHeaders = pm.response.headers.all();\r",
+							"    var allowMethodsArr = responseHeaders[2];\r",
+							"    var allowMethods = Object.values(responseHeaders[2]);\r",
+							"    console.log(allowMethods[1]);\r",
+							"    pm.expect(allowMethods[1]).to.include(\"OPTION\", \"GET\", \"HEAD\", \"POST\");\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "OPTIONS",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/todos",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
