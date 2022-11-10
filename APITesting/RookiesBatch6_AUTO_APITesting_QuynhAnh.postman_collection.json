@@ -15,11 +15,12 @@
 						"exec": [
 							"var jsonData = JSON.parse(responseBody);\r",
 							"var arr = Object.values(jsonData)[0];\r",
-							"var obj1 = arr[0];\r",
-							"var id = obj1.id;\r",
+							"var id = arr[0].id;\r",
+							"var deleteId = arr[1].id\r",
 							"//console.log(typeof id);\r",
 							"\r",
-							"postman.setEnvironmentVariable(\"id\", id);"
+							"postman.setEnvironmentVariable(\"id\", id);\r",
+							"postman.setEnvironmentVariable(\"delete-id\", deleteId);"
 						],
 						"type": "text/javascript"
 					}
@@ -99,13 +100,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/todos/1691",
+					"raw": "{{url}}/todos/{{id}}",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"todos",
-						"1691"
+						"{{id}}"
 					]
 				}
 			},
@@ -294,7 +295,7 @@
 					"script": {
 						"exec": [
 							"pm.test(\"Id_11. POST successfully update a todo with title is \\\"update title\\\"\", function () {\r",
-							"    pm.expect(pm.response.text()).to.include(\"doing API Testing Homework\");\r",
+							"    pm.expect(pm.response.text()).to.include(\"updated title\");\r",
 							"});"
 						],
 						"type": "text/javascript"
@@ -314,13 +315,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{url}}/todos/1724",
+					"raw": "{{url}}/todos/{{id}}",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"todos",
-						"1724"
+						"{{id}}"
 					]
 				}
 			},
@@ -333,7 +334,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Id_12. DELETE successfully: delete a todo with id is 1734\", function () {\r",
+							"pm.test(\"Id_12. DELETE successfully: delete the first todo item\", function () {\r",
 							"    pm.response.to.have.status(200);\r",
 							"});"
 						],
@@ -345,13 +346,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/todos/1734",
+					"raw": "{{url}}/todos/{{delete-id}}",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"todos",
-						"1734"
+						"{{delete-id}}"
 					]
 				}
 			},
