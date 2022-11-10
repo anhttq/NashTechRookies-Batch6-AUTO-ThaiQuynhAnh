@@ -294,7 +294,11 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Id_11. POST successfully update a todo with title is \\\"update title\\\"\", function () {\r",
+							"pm.test(\"Id_11.1. Use POST to update successfully\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Id_11.2. POST successfully update a todo with title is \\\"update title\\\"\", function () {\r",
 							"    pm.expect(pm.response.text()).to.include(\"updated title\");\r",
 							"});"
 						],
