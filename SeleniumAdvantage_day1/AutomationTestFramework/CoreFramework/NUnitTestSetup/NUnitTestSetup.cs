@@ -4,13 +4,14 @@ using NUnit.Framework.Interfaces;
 using NUnit.Framework.Internal;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace CoreFramework.NUnitTestSetup
 {
     [TestFixture]
     public class NUnitTestSetup
     {
-        protected IWebDriver? _driver;
+        public IWebDriver? _driver;
 
         [SetUp]
         public void SetUp()

@@ -1,7 +1,6 @@
 ﻿using RookiesTest.PageObject;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
-using CoreFramework.NUnitTestSetup;
 using RookiesTest.TestSetup;
 
 namespace Testcases

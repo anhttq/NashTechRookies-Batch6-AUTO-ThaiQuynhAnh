@@ -1,4 +1,4 @@
-using NUnit.Framework;
+ï»¿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -19,7 +19,7 @@ namespace Homework_Session3
         [Test]
         public void Test()
         {
-            string expectedFormTitle = "test text - Tìm trên Google";
+            string expectedFormTitle = "test text - TÃ¬m trÃªn Google";
             GooglePage googlePage = new GooglePage(_driver);
             googlePage.GoTo();
 

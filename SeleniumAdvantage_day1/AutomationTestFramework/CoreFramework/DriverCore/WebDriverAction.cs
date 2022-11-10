@@ -1,19 +1,11 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
 
 namespace CoreFramework.DriverCore
 {
     public class WebDriverAction
     {
         public IWebDriver driver;
-        //private WebDriverWait explicitWait;
 
         public WebDriverAction(IWebDriver driver)
         {
@@ -56,12 +48,9 @@ namespace CoreFramework.DriverCore
                 highlightElement(e);
                 e.Click();
                 TestContext.Write("click into element " + e.ToString() + " passed");
-                //HtmlReporter.Pass("Clicked to element [" + e.ToString() + "]");
             }
             catch (Exception ex)
             {
-                //string screenshot = TakeScreenshot();
-                //HtmlReporter.Fail("Could not click to element [" + e.ToString() + "]");
                 TestContext.Write("click into element " + e.ToString() + " failed");
                 throw ex;
             }
@@ -90,8 +79,6 @@ namespace CoreFramework.DriverCore
             }
             catch (Exception ex)
             {
-                //string screenshot = TakeScreenshot();
-                //HtmlReporter.Fail("Could not sendkeys to element [" + e.ToString() + "]", ex.ToString(), screenshot);
                 TestContext.Write("sendkeys into element " + locator + " failed");
                 throw ex;
             }

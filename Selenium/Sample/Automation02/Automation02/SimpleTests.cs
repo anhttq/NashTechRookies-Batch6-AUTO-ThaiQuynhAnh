@@ -52,7 +52,7 @@ namespace Automation02
             }
             else if (testStatus.Equals(TestStatus.Failed))
             {
-                _extentTest?.Fail($"[Failed] Test {TestContext.CurrentContext.Test.Name} because the error \n -{TestExecutionContext.CurrentContext.}");
+                _extentTest?.Fail($"[Failed] Test {TestContext.CurrentContext.Test.Name} because the error \n -{TestExecutionContext.CurrentContext.CurrentResult}");
 
             }
 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
-using OpenQA.Selenium.DevTools.V104.DOM;
+﻿using OpenQA.Selenium;
 
 namespace CoreFramework.DriverCore
 {
@@ -16,16 +10,6 @@ namespace CoreFramework.DriverCore
         public static void InitDriver(string Browser, int Width, int Height)
         {
             IWebDriver newDriver = null;
-            /*
-            if (frameworkConfiguration.ExecuteLocation.Equals("local"))
-            {
-                newDriver = WebDriverCreator.CreateLocalDriver(Browser, Width, Height);
-            }
-            else if (frameworkConfiguration.ExecuteLocation.Equals("browserstack"))
-            {
-                newDriver = WebDriverCreator.CreateBrowserStackDriver(Browser, Width, Height);
-            }
-            */
 
             newDriver = WebDriverCreator.CreateLocalDriver(Browser, Width, Height);
 

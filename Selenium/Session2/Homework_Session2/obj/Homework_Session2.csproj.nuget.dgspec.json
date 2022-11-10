@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2\\Homework_Session2.csproj": {}
+    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2.csproj": {}
   },
   "projects": {
-    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2\\Homework_Session2.csproj": {
+    "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2\\Homework_Session2.csproj",
+        "projectUniqueName": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2.csproj",
         "projectName": "Homework_Session2",
-        "projectPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2\\Homework_Session2.csproj",
+        "projectPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\Homework_Session2\\obj\\",
+        "outputPath": "D:\\Workspace\\NashTechRookies-Batch6-AUTO-TTQA\\Selenium\\Session2\\Homework_Session2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[3.11.0, )"
             },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
@@ -62,11 +66,11 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.6.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.6.0, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
