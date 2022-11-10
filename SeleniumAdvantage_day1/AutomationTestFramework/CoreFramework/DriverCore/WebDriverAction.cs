@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
+using System.Text.RegularExpressions;
 
 namespace CoreFramework.DriverCore
 {
@@ -82,6 +83,28 @@ namespace CoreFramework.DriverCore
                 TestContext.Write("sendkeys into element " + locator + " failed");
                 throw ex;
             }
+        }
+
+        public void TakeScreenshot()
+        {
+            var screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+            screenshot.SaveAsFile(@"D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day1\AutomationTestFramework\img.png", ScreenshotImageFormat.Png);
+        }
+
+        public void CompareTitle(string expected)
+        {
+            try
+            {
+                string actual = getTitle();
+                Assert.That(actual, Is.EqualTo(expected));
+                TestContext.Write("CompareTitle " + expected.ToString() + " passed");
+            }
+            catch (Exception ex)
+            {
+                TestContext.Write("CompareTitle " + expected.ToString() + " failed");
+                throw ex;
+            }
+
         }
     }
 }

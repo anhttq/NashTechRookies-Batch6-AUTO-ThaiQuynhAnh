@@ -16,6 +16,7 @@ namespace RookiesTest.PageObject
         public void inputUserName(string UserName)
         {
             SendKeys_(tfUserName, UserName);
+            TakeScreenshot();
         }
 
 
