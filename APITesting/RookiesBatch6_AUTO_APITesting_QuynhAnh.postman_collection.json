@@ -19,8 +19,19 @@
 							"var deleteId = arr[1].id\r",
 							"//console.log(typeof id);\r",
 							"\r",
+							"var nonId = Math.floor(Math.random() * 1000);\r",
+							"\r",
+							"for (let i = 0; i < arr.length; i++) {\r",
+							"    if (nonId == arr[i].id) {\r",
+							"        nonId++\r",
+							"    }\r",
+							"}\r",
+							"\r",
+							"//console.log(nonId)\r",
+							"\r",
 							"postman.setEnvironmentVariable(\"id\", id);\r",
-							"postman.setEnvironmentVariable(\"delete-id\", deleteId);"
+							"postman.setEnvironmentVariable(\"delete-id\", deleteId);\r",
+							"postman.setEnvironmentVariable(\"non-id\", nonId);"
 						],
 						"type": "text/javascript"
 					}
@@ -131,13 +142,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{url}}/todos/0",
+					"raw": "{{url}}/todos/{{non-id}}",
 					"host": [
 						"{{url}}"
 					],
 					"path": [
 						"todos",
-						"0"
+						"{{non-id}}"
 					]
 				}
 			},
