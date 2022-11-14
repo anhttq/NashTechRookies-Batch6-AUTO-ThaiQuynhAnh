@@ -1,0 +1,6 @@
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day3\AutomationFramework_APITesting\TestProjects\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day3\AutomationFramework_APITesting\TestProjects\obj\Debug\net6.0\TestProjects.csproj.AssemblyReference.cache
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day3\AutomationFramework_APITesting\TestProjects\obj\Debug\net6.0\TestProjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day3\AutomationFramework_APITesting\TestProjects\obj\Debug\net6.0\TestProjects.AssemblyInfoInputs.cache
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day3\AutomationFramework_APITesting\TestProjects\obj\Debug\net6.0\TestProjects.AssemblyInfo.cs
+D:\Workspace\NashTechRookies-Batch6-AUTO-TTQA\SeleniumAdvantage_day3\AutomationFramework_APITesting\TestProjects\obj\Debug\net6.0\TestProjects.csproj.CoreCompileInputs.cache
