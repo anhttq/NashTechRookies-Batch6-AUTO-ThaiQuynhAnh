@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Automation Test Report</title>
+  <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@3da944e596e81f10ac6c1042c792af8a5a741023/commons/img/logo.png">
+  <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@8539670db814bf19a0ddbe9a6d19058aea0cf981/spark/css/spark-style.css" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <style> </style>
+</head>
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<body class="spa  standard">
+    <div class="app header-dark side-nav-folded">
+        <div class="layout">
+            <div class="header navbar">
+    <div class="header-container">
+        <div class="nav-logo">
+          <a href="index.html">
+            <div class="logo logo-dark" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+            <div class="logo logo-white" style="background-image: url('https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png')"></div>
+          </a>
+        </div>
+        <ul class="nav-left">
+          <li>
+            <a class="sidenav-fold-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+            <a class="sidenav-expand-toggler" href="javascript:void(0);">
+              <i class="fa fa-bars"></i>
+            </a>
+          </li>
+          <li class="search-box">
+            <a class="search-toggle" href="javascript:void(0);">
+              <i class="search-icon fa fa-search"></i>
+              <i class="search-icon-close fa fa-close"></i>
+            </a>
+          </li>
+          <li class="search-input">
+            <input id="search-tests" class="form-control" type="text" placeholder="Type to search...">
+          </li>
+        </ul>
+        <ul class="nav-right">
+          <li class="m-r-10">
+            <a href="#">
+              <span class="badge badge-primary">Automation Test Report</span>
+            </a>
+          </li>
+            <li class="m-r-10">
+                <a href="#">
+                    <span class="badge badge-primary">11/14/2022 8:53:30 AM</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+            <div class="side-nav side-nav-folded">
+  <div class="side-nav-inner">
+    <ul class="side-nav-menu scrollable">
+      <li class="nav-item dropdown" onclick="toggleView('test-view')">
+        <a id="nav-test" class="dropdown-toggle" href="index.html">
+          <span class="icon-holder">
+            <i class="fa fa-align-left"></i>
+          </span>
+          <span class="title">Tests</span>
+        </a>
+      </li>
+            <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+        <a id="nav-dashboard" class="dropdown-toggle" href="dashboard.html">
+          <span class="icon-holder">
+            <i class="fa fa-bar-chart"></i>
+          </span>
+          <span class="title">Dashboard</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="side-nav-controls">
+    <ul>
+      <li>
+        <a href="#" class="lightsout" style="color:#8a8a8a;">
+          <i class="fa fa-desktop"></i>"</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+            <div class="page-container">
+                <div class="main-content">
+                    <div class="test-wrapper row test-view">
+    <div class="test-list">
+        <div class="test-list-tools">
+            <ul class="tools pull-left">
+                <li>
+                    <a href="">
+                        <span class="font-size-14">Tests</span>
+                    </a>
+                </li> 
+            </ul>
+            <ul class="tools text-right">
+				<li class="user-profile dropdown dropdown-animated scale-left">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="fa fa-exclamation-circle"></i>
+					</a>
+					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a status="pass" class="dropdown-item" href="#"><span>Pass</span><span class="status success pull-right"></span></a>																																				<div class="dropdown-divider"></div>
+						<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+					</ul>
+				</li>
+								            </ul>
+        </div>
+        <div class="test-list-wrapper scrollable">
+            <ul class="test-list-item">
+					<li class="test-item" status="pass" author="" device="" tag="" test-id="1"> 
+						<div class="status-avatar pass-bg">
+							<i class="fa fa-check text-white"></i>
+						</div>
+						<div class="open-test">
+							<div class="test-detail"> 
+								<p class="name">TestProjects.APITest.APITest</p> 
+								<p class="duration text-sm">0h:0m:0s+011ms</p> 
+								<span class="datetime">08:53:30 AM</span>
+							</div>
+						</div>
+						<div class="test-contents d-none">
+							<div class="detail-head">
+								<div class="p-v-10 d-inline-block">	
+									<div class="info">
+										<h5 class="test-status text-pass">TestProjects.APITest.APITest</h5>
+										<span class='badge badge-success'>11/14/2022 8:53:30 AM</span>
+										<span class='badge badge-danger'>11/14/2022 8:53:30 AM</span>
+										<span class='badge badge-default'>0h:0m:0s+011ms</span>
+									</div>
+																	</div>
+							</div>
+<div class="detail-body mt-4">												
+	
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>08:53:34</td>
+				<td>
+<p>Request url: https://602e2a204410730017c5025a.mockapi.io/userlogin<p>
+                <p>Response body: [{"id":"1","username":"Melvin_Abernathy34","password":"UFsLzTfvBEVY5aP","Token":"Token 1"},{"id":"2","username":"Reanna_Streich","password":"neW8yJ2teS7vgfT","Token":"Token 2"},{"id":"3","username":"Jeramy51","password":"bJxqIX05MqHztBo","Token":"Token 3"},{"id":"4","username":"Hannah.White69","password":"8wio5NCWM6OWTjx","Token":"Token 4"},{"id":"5","username":"Ebony.Pollich","password":"hi5ubf3JEKVx4_m","Token":"Token 5"},{"id":"6","username":"Blaise.Lind","password":"ygoniXSeHLAsLgD","Token":"Token 6"},{"id":"7","username":"Lilla91","password":"qA2XzE_UK0v266E","Token":"Token 7"},{"id":"8","username":"Bartholome.Howe","password":"Ba7j_z2OxheCqf3","Token":"Token 8"},{"id":"9","username":"Andreane_Koch","password":"jQnVDARbnYk_v7i","Token":"Token 9"},{"id":"10","username":"Orion.Fritsch42","password":"p86FeYIEsgac5qB","Token":"Token 10"},{"id":"11","username":"Sydnie40","password":"Zu7sY0_nJPw2IkC","Token":"Token 11"},{"id":"12","username":"Callie55","password":"V4IdmoOvyyRqyn1","Token":"Token 12"},{"id":"13","username":"Jan23","password":"uw0AhiXs367eT0N","Token":"Token 13"},{"id":"14","username":"Geovanny_Pouros","password":"GlzwDVS5Tt2w89K","Token":"Token 14"},{"id":"15","username":"Antonette45","password":"ainocCRhdbmyWi4","Token":"Token 15"},{"id":"16","username":"Alexie30","password":"jiLXBzQAUbBaMdm","Token":"Token 16"},{"id":"17","username":"Douglas.Russel95","password":"KJr1jdqoW95V4Qm","Token":"Token 17"},{"id":"18","username":"Nannie_Conn79","password":"_oKenaoNebRZeZ9","Token":"Token 18"},{"id":"19","username":"Uriel_Willms","password":"EnNAhY9qd2ErYK9","Token":"Token 19"},{"id":"20","username":"Ali43","password":"HH5QYiHtFK8QCvA","Token":"Token 20"},{"id":"21","username":"Claudia.Renner22","password":"X4Sa_tOCwMJNPnP","Token":"Token 21"},{"id":"22","username":"Howard.Kling15","password":"JrZhVVnQRnKMWDg","Token":"Token 22"},{"id":"23","username":"Alf.Gusikowski","password":"tgk4KXUwI5uZcwI","Token":"Token 23"},{"id":"24","username":"Halie_Sipes","password":"4l9ImGd09AoR0id","Token":"Token 24"},{"id":"25","username":"Ericka_VonRueden38","password":"uyBewgUCF21MIct","Token":"Token 25"},{"id":"26","username":"Wellington_Kshlerin55","password":"qJaiuRhQYg6f8_q","Token":"Token 26"},{"id":"27","username":"Wyman79","password":"gsU3HiU0cYBXQWH","Token":"Token 27"},{"id":"28","username":"Myra79","password":"yjvjz2FzHot6Wdt","Token":"Token 28"},{"id":"29","username":"Kira.Reilly","password":"chskHKWSLSJP6Rb","Token":"Token 29"},{"id":"30","username":"Amanda.Johnson24","password":"i5exR3t8ISa6j51","Token":"Token 30"},{"id":"31","username":"Tatum69","password":"lItqtzm8X3smY07","Token":"Token 31"},{"id":"32","username":"Mariana94","password":"Qu2HA9dD1Nwzfwh","Token":"Token 32"},{"id":"33","username":"Loraine46","password":"vg6MLdEQHXnxpd0","Token":"Token 33"},{"id":"34","username":"Bailee74","password":"C6zFjeawVSBYZCQ","Token":"Token 34"},{"id":"35","username":"Alessia.Schamberger","password":"wn0KtklxONoeaOb","Token":"Token 35"},{"id":"36","username":"user001","password":"pw001","Token":"myToken"},{"id":"37","username":"user002","password":"pw002","Token":"myToken"},{"id":"38","username":"user001","password":"pw001","Token":"myToken"},{"id":"39","username":"user002","password":"pw002","Token":"myToken"},{"id":"40","username":"user001","password":"pw001","Token":"myToken"},{"id":"41","username":"user002","password":"pw002","Token":"myToken"},{"id":"42","username":"user001","password":"pw001","Token":"myToken"},{"id":"43","username":"user002","password":"pw002","Token":"myToken"},{"id":"44","username":"user001","password":"pw001","Token":"myToken"},{"id":"45","username":"user002","password":"pw002","Token":"myToken"},{"id":"46","username":"user001","password":"pw001","Token":"myToken"},{"id":"47","username":"user002","password":"pw002","Token":"myToken"},{"id":"48","username":"user001","password":"pw001","Token":"myToken"},{"id":"49","username":"user002","password":"pw002","Token":"myToken"},{"id":"50","username":"user001","password":"pw001","Token":"myToken"},{"id":"51","username":"user002","password":"pw002","Token":"myToken"},{"id":"52","username":"user001","password":"pw001","Token":"myToken"},{"id":"53","username":"user002","password":"pw002","Token":"myToken"},{"id":"54","username":"user001","password":"pw001","Token":"myToken"},{"id":"55","username":"user002","password":"pw002","Token":"myToken"},{"id":"56","username":"user001","password":"pw001","Token":"myToken"},{"id":"57","username":"user002","password":"pw002","Token":"myToken"},{"id":"58","username":"user001","password":"pw001","Token":"myToken"},{"id":"59","username":"user002","password":"pw002","Token":"myToken"},{"id":"60","username":"user001","password":"pw001","Token":"myToken"},{"id":"61","username":"user002","password":"pw002","Token":"myToken"},{"username":"user001","password":"pw001","Token":"Token 62","id":"62"},{"username":"user001","password":"pw001","Token":"Token 63","id":"63"},{"username":"user001","password":"pw001","Token":"Token 64","id":"64"},{"username":"user001","password":"pw001","Token":"Token 65","id":"65"},{"username":"user001","password":"pw001","Token":"Token 66","id":"66"},{"username":"admin","password":"admin","Token":"Token 67","id":"67"},{"username":"normal","password":"normal","Token":"Token 68","id":"68"},{"username":"admin","password":"admin","Token":"Token 69","id":"69"},{"username":"normal","password":"normal","Token":"Token 70","id":"70"},{"username":"admin","password":"admin","Token":"Token 71","id":"71"},{"username":"normal","password":"normal","Token":"Token 72","id":"72"},{"username":"admin","password":"admin","Token":"Token 73","id":"73"},{"username":"normal","password":"normal","Token":"Token 74","id":"74"},{"username":"admin","password":"admin","Token":"Token 75","id":"75"},{"username":"normal","password":"normal","Token":"Token 76","id":"76"},{"username":"admin","password":"admin","Token":"Token 77","id":"77"},{"username":"normal","password":"normal","Token":"Token 78","id":"78"},{"username":"test","password":"test","Token":"Token 79","id":"79"},{"username":"test","password":"test","Token":"Token 80","id":"80"},{"username":"test","password":"test","Token":"Token 81","id":"81"},{"username":"admin","password":"admin","Token":"Token 82","id":"82"},{"username":"normal","password":"normal","Token":"Token 83","id":"83"}]</p>
+                <p>Response status code: OK <p>									</td>
+			</tr>
+	</tbody>
+</table>
+
+</div>    
+<div class="mt-4">
+	
+	<div class="accordion">
+			<div class="card">
+				<div class="card-header" role="tab">
+					<h5 class="card-title">
+						<div class="node">APIResquestTest</div>
+						<div class="status-avatar float-right pass-bg">
+							<i class="fa fa-check text-white"></i>
+                        </div>
+					</h5>
+				</div>
+				<div class="collapse">
+					<div class="card-body">
+																	</div>
+				</div>
+			</div>
+	</div>
+
+</div>
+						</div>
+					</li>
+            </ul>    
+        </div>
+    </div>
+    <div class="test-content scrollable">
+        <div class="test-content-tools">
+            <ul>
+                <li>
+                    <a class="back-to-test" href="javascript:void(0)">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="test-content-detail">
+            <div class="detail-body"></div>
+        </div>
+    </div>
+</div>
+										<div class="container-fluid p-4 dashboard-view">
+	<div class="row">
+		<div class="col-sm-12 col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Tests</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='parent-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='100%'>
+	                    <b>1</b> tests passed
+                    </small></div>
+	                <div>
+	                    <small data-tooltip='0%'><b>0</b> tests failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-sm-12 col-md-6">
+			<div class="card">
+				<div class="card-header">
+					<h6 class="card-title">Steps</h6>
+				</div>
+				<div class="card-body">
+	                <div class="">
+	                    <canvas id='child-analysis' width='115' height='90'></canvas>
+	                </div>
+	            </div>
+	            <div class="card-footer">
+	                <div><small data-tooltip='100%'><b>1</b> steps passed</small></div>
+	                <div>
+	                    <small data-tooltip='0%'><b>0</b> steps failed, 
+	                    <b data-tooltip='0%'>0</b> others
+	                    </small>
+                    </div>
+	            </div>
+			</div>
+		</div>
+			</div>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Tests</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>100%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Steps</h6>
+							<h2 class="font-size-28 font-weight-light">1</h2>
+							<span class="text-semibold text-success font-size-15">
+							<i class="ti-arrow-up font-size-11"></i> 
+								<span>100%</span>
+							</span>
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-align-left font-size-70 opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Start</h6>
+							<h6 class="font-weight-light">11/14/2022 8:53:30 AM</h6>
+							<span class="text-semibold text-success font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-success opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="card">
+				<div class="card-body box-height-150">
+	                <div class="media justify-content-between">
+						<div>
+							<h6 class="card-title">Duration</h6>
+							<h6 class="font-weight-light">00:00:04.2883845</h6>
+							<span class="text-semibold text-danger font-size-15">
+						</div>
+						<div class="align-self-end">
+							<i class="fa fa-clock-o font-size-70 text-danger opacity-01"></i>
+						</div>
+					</div>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+							</div>
+</div>
+<script>
+	var statusGroup = {
+    parentCount: 1,
+		passParent: 1,
+		failParent: 0,
+		fatalParent: 0,
+		errorParent: 0,
+		warningParent: 0,
+		skipParent: 0,
+		exceptionsParent: 0,
+		childCount: 1,
+		passChild: 1,
+		failChild: 0,
+		fatalChild: 0,
+		errorChild: 0,
+		warningChild: 0,
+		skipChild: 0,
+		infoChild: 0,
+		debugChild: 0,
+		exceptionsChild: 0,
+		grandChildCount: 0,
+		passGrandChild: 0,
+		failGrandChild: 0,
+		fatalGrandChild: 0,
+		errorGrandChild: 0,
+		warningGrandChild: 0,
+		skipGrandChild: 0,
+		infoGrandChild: 0,
+		debugGrandChild: 0,
+		exceptionsGrandChild: 0,
+	};
+</script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@cc89904c1a12065be1d08fc4994a258ef01b12bd/spark/js/scripts.js"></script>
+<script type='text/javascript'>
+	
+</script>
+</body>
+
+</html>

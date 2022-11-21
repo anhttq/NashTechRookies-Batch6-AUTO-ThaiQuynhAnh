@@ -65,7 +65,7 @@ namespace CoreFramework.Reporter
             {
                 extentTestSuite = createTest(className);
             }
-            ExtentTest extentTestCase = extentTestSuite.CreateNode(testcase, description);
+            extentTestCase = extentTestSuite.CreateNode(testcase, description);
             return extentTestCase;
         }
 
